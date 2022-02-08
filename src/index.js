@@ -122,9 +122,8 @@ contactSubtitle.textContent = siteContent["contact"]["contact-h4"];
 address.textContent = siteContent["contact"]["address"];
 phone.textContent = siteContent["contact"]["phone"];
 email.textContent = siteContent["contact"]["email"];
-
 //footer
 const footer = document.querySelector("footer");
-const footLink = document.querySelector("a");
+const footLink = footer.querySelector("a");
 footLink.className = "bold";
 footLink.textContent = siteContent["footer"]["copyright"];
